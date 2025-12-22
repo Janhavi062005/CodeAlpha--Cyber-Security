@@ -46,4 +46,63 @@ The sniffer operates in **passive mode**, meaning it only observes packets and d
 1. Install Scapy:
    ```bash
    pip install scapy
+Step 2: (Windows Only) Install Npcap
+
+Download and install Npcap
+
+Enable WinPcap compatibility mode during installation
+
+Restart the system after installation
+
+Step 3: Run the Sniffer
+
+Run the program with administrator privileges:
+
+python sniffer.py
+
+
+(Administrator access is required for packet capture.)
+
+Step 4: Generate Network Traffic
+
+To see packet output, generate new network activity after running the program.
+
+The most reliable method:
+
+ping google.com
+
+
+Other methods:
+
+Refresh a website
+
+Open a new browser tab
+
+Access a different website
+
+Step 5: Stop the Program
+
+The program stops automatically after capturing 10 packets
+(or press Ctrl + C to stop manually).
+
+Observations
+
+Packet capture stops after 10 packets due to the count limit.
+
+Ping consistently generates visible packets and is ideal for testing.
+
+Already-open or buffered applications may not generate new packets immediately.
+
+Learning Outcome
+
+This task helped me understand:
+
+Packet-based network communication
+
+IP, TCP, and UDP protocol basics
+
+How packet sniffers work internally
+
+Real-time behavior of network traffic   
+   
 
