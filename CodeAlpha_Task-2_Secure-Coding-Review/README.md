@@ -115,13 +115,13 @@ python secure_code.py
 ```
 
 
-###Try logging in with:
+### Try logging in with:
 
 Username: admin
 
 Password: admin123
 
-##Observations
+## Observations
 
 - Hardcoded credentials are one of the most common real-world security issues.
 
@@ -131,7 +131,7 @@ Password: admin123
   
 ---
 
-##Learning Outcome
+## Learning Outcome
 
 **Through this task, I learned:**
 
